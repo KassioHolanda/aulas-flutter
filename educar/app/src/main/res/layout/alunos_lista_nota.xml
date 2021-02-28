@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/add_nota_id"
+    layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="0.1pt"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="0.1pt"
+    app:cardCornerRadius="2dp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/idaluno_nota_id"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:text="id"
+            android:textAllCaps="false"
+            android:textColor="#222"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/nomealuno_nota_id"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:paddingLeft="4dp"
+            android:text="nome"
+            android:textAllCaps="false"
+            android:textColor="#222"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/nota_aluno_id"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="4dp"
+            android:textStyle="bold"
+            android:text="Inserir"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+

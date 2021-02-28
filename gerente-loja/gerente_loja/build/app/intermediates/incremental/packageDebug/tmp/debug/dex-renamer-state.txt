@@ -1,0 +1,10 @@
+#Thu Feb 20 22:00:27 BRT 2020
+path.2=classes3.dex
+path.1=classes2.dex
+path.0=classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+base.2=D\:\\gerente-loja\\gerente_loja\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\0
+base.1=D\:\\gerente-loja\\gerente_loja\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\0
+base.0=D\:\\gerente-loja\\gerente_loja\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\0

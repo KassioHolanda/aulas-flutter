@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.fragments.FrequenciaFragment">
+
+    <LinearLayout
+        android:id="@+id/cardview_unidade_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EEEEEE"
+        android:orientation="vertical"
+        android:padding="6dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:background="@drawable/domain" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="center|left"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+
+                <TextView
+                    android:id="@+id/unidadeselecionada_aula_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="unidade"
+                    android:textSize="12sp"
+                    android:textStyle="italic"></TextView>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:background="@drawable/calendar_alert" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="center|left"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Turma"-->
+                <!--android:textColor="@color/colorTextTabs"-->
+                <!--android:textSize="16sp"-->
+                <!--android:textStyle="bold"></TextView>-->
+
+
+                <TextView
+                    android:id="@+id/turmaselecionada_aula_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="turma"
+                    android:textSize="12sp"
+                    android:textStyle="italic"></TextView>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:background="@drawable/calendar_week" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="center|left"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Disciplina"-->
+                <!--android:textColor="@color/colorTextTabs"-->
+                <!--android:textSize="16sp"-->
+                <!--android:textStyle="bold"></TextView>-->
+
+                <TextView
+                    android:id="@+id/disciplinaselecionada_aula_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="disciplina"
+                    android:textSize="12sp"
+                    android:textStyle="italic"></TextView>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="#fff"
+        android:orientation="vertical"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cardview_unidade_id"
+
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/data_id"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cardview_unidade_id"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_weight="2"
+                    android:text="Data da Frequência "
+                    android:textColor="#222"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/data_frequencia_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_weight="3"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Data da Frequencia "
+                    android:textColor="#222"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cardview_unidade_id"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_weight="2"
+                    android:text="Bimestre"
+                    android:textColor="#222"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/bimestre_fragment_frequencia_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_weight="3"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Bimestre"
+                    android:textColor="#222"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/conteudo_aula_id"
+                android:layout_width="match_parent"
+                android:textColorHint="#222"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:hint="Conteúdo da aula"
+                android:textSize="18sp"></com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+        <!--        <EditText-->
+        <!--            -->
+        <!--            -->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            ></EditText>-->
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/alunos_frequencia_recycler_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/data_id" />
+
+</LinearLayout>

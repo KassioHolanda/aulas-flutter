@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "427697024109",
+    "firebase_url": "https://gerente-loja-64fef.firebaseio.com",
+    "project_id": "gerente-loja-64fef",
+    "storage_bucket": "gerente-loja-64fef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:427697024109:android:31997438507e12617aa364",
+        "android_client_info": {
+          "package_name": "br.com.jacasoftware.gerente_loja"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "427697024109-hcpbl6bve206uk0runvtpo0mi6cob700.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB49yvvJC696gPzIk2mnl4t8HYOOoGZ8s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "427697024109-hcpbl6bve206uk0runvtpo0mi6cob700.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

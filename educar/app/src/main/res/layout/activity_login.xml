@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".ui.activities.LoginActivity">
+
+    <ImageView
+        android:id="@+id/logo_id"
+        android:layout_width="230dp"
+        android:layout_height="180dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/logo_padrao" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/text_layout_cpf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo_id"
+        android:layout_marginBottom="4dp"
+        android:padding="4dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/cpf_login_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logo_id"
+            android:hint="CPF"
+            android:inputType="number"
+            android:padding="6dp"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layout_senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_layout_cpf"
+        android:layout_marginBottom="16dp"
+        android:padding="4dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/senha_login_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Senha "
+            android:inputType="textPassword"
+            android:padding="6dp"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/acessar_login_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_senha"
+        android:padding="10dp"
+        android:text="Acessar"
+        android:background="@drawable/borda_arredondada_botao"
+        android:textColor="#FFF"
+        android:textSize="16sp" />
+
+</RelativeLayout>
